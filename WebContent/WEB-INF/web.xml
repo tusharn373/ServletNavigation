@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>ServetNavigationTemp</display-name>
+  <servlet>
+  <servlet-name>sendRedirect</servlet-name>
+  <servlet-class>sendRedirect</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>sendRedirect</servlet-name>
+  <url-pattern>/sendRedirect</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Invalid</servlet-name>
+  <servlet-class>Invalid</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Invalid</servlet-name>
+  <url-pattern>/Invalid</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Session</servlet-name>
+  <servlet-class>SessionManagement.Session</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Session</servlet-name>
+  <url-pattern>/Session</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Details</servlet-name>
+  <servlet-class>SessionManagement.Details</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Details</servlet-name>
+  <url-pattern>/Details</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Cookies</servlet-name>
+  <servlet-class>Cookies.Cookies</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Cookies</servlet-name>
+  <url-pattern>/Cookies</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Cookies1</servlet-name>
+  <servlet-class>Cookies.Cookies1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Cookies1</servlet-name>
+  <url-pattern>/Cookies1</url-pattern>
+  </servlet-mapping>
+</web-app>
